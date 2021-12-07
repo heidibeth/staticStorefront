@@ -1,0 +1,81 @@
+body {
+    margin: -4px;
+}
+
+#pageHeader {
+    background-image: url(https://www.rumblerum.com/wp-content/uploads/2018/07/Cat-Tree-by-Yoh-Komiyam-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#titleArea {
+    height: 50vh;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    margin: 0 8px 8px;
+    padding: 3px;
+    border: 1px solid gainsboro;
+}
+
+#catlogo {
+    float: left;
+}
+
+#basket {
+    float: right; 
+}
+
+.grow {
+    transition: all .2s ease-in-out; 
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    background-color: #0005;
+    border-radius: 10px;
+    padding-top: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 9px 0 0 0;
+    padding: 2px 3px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li {
+    float: left;
+  }
+
+.user {
+    float: right;
+    /* padding: 2px 3px; */
+  }
+
+  li a:hover {
+    background-color: #0006;
+    border-radius: 5px;
+  }
+
+  #about {
+    margin-top: -25px;
+    background-color: #0005;
+  }
