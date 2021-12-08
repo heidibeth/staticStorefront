@@ -16,9 +16,13 @@ body {
 #storeHeader {
     text-align: left;
     position: relative;
-    top: 42vh;
+    top: 47vh;
     left: 5vw;
     color: rgba(255, 255, 255, 0.89);
+}
+
+h1, h3 {
+    margin: 10px;
 }
 
 .icon {
@@ -136,7 +140,6 @@ color: white;
 .beds p {
     width: 300px;
     margin: 0 auto;
-
 }
 
 #footer {
